@@ -7,7 +7,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	
 <nav class="navbar navbar-default">
-
 	<div class="container-fluid">
 
 		<div class="navbar-header">
