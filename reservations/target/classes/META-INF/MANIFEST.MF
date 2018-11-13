@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Softparc_10
+Build-Jdk: 11.0.1
+Implementation-Title: reservations
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.silviu
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/reservations/
+Created-By: Maven Integration for Eclipse
+
