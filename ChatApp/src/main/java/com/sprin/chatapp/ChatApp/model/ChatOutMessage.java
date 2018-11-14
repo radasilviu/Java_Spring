@@ -3,11 +3,19 @@ package com.sprin.chatapp.ChatApp.model;
 import java.util.Date;
 
 public class ChatOutMessage {
-	
+
 	private String content;
 	private String groupName;
-	private Date timestamp;
+	private Date sentTimestamp;
 	
+	public ChatOutMessage() {
+		
+	}
+	
+	public ChatOutMessage(String content) {
+        this.content = content;
+    }
+	 
 	public String getContent() {
 		return content;
 	}
@@ -20,13 +28,13 @@ public class ChatOutMessage {
 	public void setGroupName(String groupName) {
 		this.groupName = groupName;
 	}
-	public Date getTimestamp() {
-		return timestamp;
-	}
-	public void setTimestamp(Date timestamp) {
-		this.timestamp = timestamp;
-	}
-	
-	
 
+	public Date getSentTimestamp() {
+		return sentTimestamp;
+	}
+
+	public void setSentTimestamp(Date sentTimestamp) {
+		this.sentTimestamp = sentTimestamp;
+	}
+	
 }
